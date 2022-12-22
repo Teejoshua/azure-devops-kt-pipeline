@@ -19,7 +19,7 @@ stages:
     - task: Docker@2
       inputs:
         containerRegistry: 'teejoshua-docker-hub'
-        repository: 'teejoshua/currency-exchange-devops'
+        repository: 'teejoshua/hello-world-python'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
         tags: '$(tag)'
